@@ -1,0 +1,72 @@
+body{
+ background-image: linear-gradient(to bottom right, black, grey);
+}
+#Header{
+color:white;
+text-align: center;
+}
+#Text1, #Text2, #Text3{
+color:white;
+font-size:22px;
+text-align: center;
+}
+img{
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height:auto;
+  position:static;
+}
+#Box{
+	size:80%;
+	margin:10%;
+	padding:0% 5%;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  font-size:20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#Logo{
+	float:right;
+	object-fit:cover;
+	width:2.5%;
+}
+#NavBox{
+	height:10%;
+}
+li a:hover {
+  background-color: white;
+  color: black;
+}
+@media screen and(){}
+@media screen and (){}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}

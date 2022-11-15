@@ -6,12 +6,15 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{700D6CDD-9509-4570-A153-FC55327EF81E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{2B23BE36-7C3B-4508-8C0A-D1ADF465DF04}"
+	ProjectSection(SolutionItems) = preProject
+		CSS.css = CSS.css
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{2F36B543-D433-4808-A7DB-7A45EBD1C7EF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{F2518924-C5E7-4DE4-8899-2AE371CEB23D}"
 	ProjectSection(SolutionItems) = preProject
-		HTMLPage1.html = HTMLPage1.html
+		Home.html = Home.html
 	EndProjectSection
 EndProject
 Global
